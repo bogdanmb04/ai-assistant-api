@@ -84,5 +84,6 @@ Console.WriteLine(app.Services.GetService<ISecretsService>()?.IoTHubSecrets?.Con
 Console.WriteLine(app.Services.GetService<IAppConfigurationService>()?.KeyVaultName);
 Console.WriteLine(app.Services.GetService<IAppConfigurationService>()?.SecretsPrefix);
 Console.WriteLine(app.Services.GetService<IAppConfigurationService>()?.IoTDeviceName);
+Console.WriteLine(app.Services.GetService<IAppConfigurationService>()?.Instruction);
 
 app.Run();
